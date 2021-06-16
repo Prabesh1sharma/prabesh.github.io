@@ -1,0 +1,65 @@
+.MyClass
+{
+ 
+    height: 20px;
+}
+#title{
+    background-color: #10407E ;
+    color: #fff;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+  .title-img{
+    height:600px;
+   padding-left: 100px;
+   position: absolute;
+   margin-top: 10px;
+  }
+#title2
+{
+  padding-top: 3rem;
+  padding-bottom: 23rem;
+}
+.container-fluid
+{
+  padding: 3% ;
+}
+ 
+.nav-item
+{
+    font-size: 1.2rem;
+}
+.navbar
+{
+    margin-top: 0px;
+}
+#features
+{
+  background-color: #fff;
+  padding: 7% 10%;
+  position:relative;
+  margin-top: 100px;
+  }
+  #carasoul
+  {
+      padding-top: 100px;
+  }
+  #pricing
+  {
+      margin-top: 200px;
+  }
+  @media (max-width:749px)
+{
+  .title-img
+  {
+    padding-top: 20px;  
+    transform: rotate(0deg);
+    position: relative;
+    text-align: center;
+  }
+  #title2
+  {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
